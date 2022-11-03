@@ -19,6 +19,13 @@ npm i -g @nestjs/cli
 docker-compose up -d
 ```
 
+5. Fill DB
+```
+http://localhost:3000/api/v2/seed
+```
+
+- DB User pokemon_user
+- DB Password: n6lajANMKo5guaJD
 ## Stack used
 * MongoDB
 * Nest
